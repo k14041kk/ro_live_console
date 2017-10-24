@@ -1,10 +1,10 @@
 {
     "name" : "LiveConsole",
     "version" : "0.0.1",
-    "description" : "Display Console information of cluster",
+    "description" : "Display Console information of cluster. created k14041kk",
     "icon" : "fa-terminal",
-    "main_controller" : "rrsoacis\\apps\\rrs_oacis\\live_console\\LiveConsoleMainController",
+    "main_controller" : "rrsoacis\\apps\\k14041kk\\ro_live_console\\LiveConsoleMainController",
     "sub_controller" : [
-        ["cluster_get","rrsoacis\\apps\\rrs_oacis\\live_console\\ClusterGetController"]
+        ["cluster_get","rrsoacis\\apps\\k14041kk\\ro_live_console\\ClusterGetController"]
     ]
 }

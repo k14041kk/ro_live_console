@@ -6,7 +6,7 @@
  * Time: 22:02
  */
 
-namespace rrsoacis\apps\rrs_oacis\live_console;
+namespace rrsoacis\apps\k14041kk\ro_live_console;
 
 use rrsoacis\component\common\AbstractController;
 use rrsoacis\manager\ClusterManager;

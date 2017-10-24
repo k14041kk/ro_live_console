@@ -119,7 +119,7 @@ foreach($clusters as $clusterData) {
 
         function getOut<?= $cluster ?>() {
 
-            fetch('<?= Config::$TOP_PATH ?>live_console-cluster_get/<?= $cluster ?>/out', {
+            fetch('<?= Config::$TOP_PATH ?>k14041kk/ro_live_console-cluster_get/<?= $cluster ?>/out', {
                 method: 'GET', credentials: "include"
             })
                 .then(function (response) {
@@ -178,7 +178,7 @@ foreach($clusters as $clusterData) {
 
         function getError<?= $cluster ?>() {
 
-            fetch('<?= Config::$TOP_PATH ?>live_console-cluster_get/<?= $cluster ?>/error', {
+            fetch('<?= Config::$TOP_PATH ?>k14041kk/ro_live_console-cluster_get/<?= $cluster ?>/error', {
                 method: 'GET', credentials: "include"
             })
                 .then(function (response) {
